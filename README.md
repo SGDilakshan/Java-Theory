@@ -44,3 +44,27 @@ This program demonstrates the use of different types of variables in Java.
 This program helps understand how different data types are used in Java for storing and handling information.
 
 ### .....................................................
+
+### 🔹5_TypeCasting.java
+
+This program demonstrates **Type Casting** in Java, which is the process of converting one data type into another.
+
+#### 🔹 Types of Type Casting:
+1. **Widening Casting (Automatic Type Conversion)**
+- Converts a smaller data type into a larger one automatically.
+- Order: `byte -> short -> char -> int -> long -> float -> double`
+- Example: Converting an `int` to a `double`.
+
+2. **Narrowing Casting (Explicit Type Conversion)**
+- Converts a larger data type into a smaller one manually using type casting.
+- Order: `double -> float -> long -> int -> char -> short -> byte`
+- Example: Converting a `double` to an `int`.
+
+#### 🔹 Program Functionality:
+- Demonstrates **widening casting** by converting an `int` to a `double`.
+- Demonstrates **narrowing casting** by converting a `double` to an `int`.
+- Prints the original and converted values to the console.
+
+This program helps in understanding how type conversion works in Java and when to use explicit or implicit casting.
+
+### .....................................................
