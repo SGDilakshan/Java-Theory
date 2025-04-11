@@ -26,3 +26,21 @@ This program demonstrates how to use single-line and multi-line comments in Java
   In the example, `/* THIS PART IS ALLOCATED FOR MULTI LINE COMMENTS */` is a multi-line comment that can span multiple lines.
 
 ### .....................................................
+
+### 🔹4_VariablesInJava.java
+This program demonstrates the use of different types of variables in Java.
+
+#### 🔹 Variable Types Used:
+- **String** → Stores text values (e.g., `"Dilakshan"`).
+- **int** → Stores integer values (e.g., `25`).
+- **float** → Stores decimal values (e.g., `25.25f`).
+- **char** → Stores a single character (e.g., `'M'`).
+- **boolean** → Stores `true` or `false` values (e.g., `true`).
+
+#### 🔹 Program Functionality:
+- Declares and initializes different types of variables.
+- Prints the values of these variables to the console using `System.out.println()`.
+
+This program helps understand how different data types are used in Java for storing and handling information.
+
+### .....................................................
