@@ -145,3 +145,8 @@ This program demonstrates the use of **logical operators** in Java. Logical oper
 This program helps in understanding how logical operators work and how they are used in **decision-making** (e.g., `if` conditions) in Java.
 
 ### .....................................................
+
+### 🔹10_ConditionalOperators.java
+This program demonstrates the use of the **conditional (ternary) operator** in Java. The ternary operator is a shorthand for `if-else` statements and is used to make quick decisions based on a condition.
+
+### .....................................................
