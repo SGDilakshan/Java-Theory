@@ -169,3 +169,31 @@ This program demonstrates the use of **unary operators** in Java. Unary operator
 - Prints the values to observe how these operators affect the variable.
 
 ### .....................................................
+
+### 🔹12_BitwiseAndShiftOperators.java
+This program demonstrates the use of **bitwise and shift operators** in Java. These operators perform operations at the **binary level**, manipulating individual bits of integers.
+
+#### 🔹 Bitwise Operators Used:
+1. **Bitwise AND (`&`)**
+- Performs **AND** operation between corresponding bits.
+- Example: `25 & 45`
+
+2. **Bitwise OR (`|`)**
+- Performs **OR** operation between corresponding bits.
+- Example: `25 | 45`
+
+3. **Bitwise XOR (`^`)**
+- Performs **XOR** operation between corresponding bits.
+- Example: `25 ^ 45`
+- Returns `1` if bits are different, otherwise `0`.
+
+4. **Bitwise NOT (`~`)**
+- Inverts all bits (1 → 0, 0 → 1).
+- Example: `~25` (Computes the **two’s complement**).
+
+#### 🔹 Program Functionality:
+- Declares two integer variables.
+- Performs **bitwise operations** (`&`, `|`, `^`, `~`) on them.
+- Prints the results to observe how **bitwise operators** work.
+
+### .....................................................
