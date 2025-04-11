@@ -127,3 +127,21 @@ This program demonstrates the use of **relational operators** in Java. Relationa
 This program helps in understanding how relational operators work and their importance in decision-making (e.g., `if` conditions) in Java.
 
 ### .....................................................
+
+### 🔹9_LogicalOperators.java
+This program demonstrates the use of **logical operators** in Java. Logical operators are used to combine multiple conditions and return a boolean result (`true` or `false`).
+
+#### 🔹 Logical Operators Used:
+1. **Logical AND (`&&`)** → Returns `true` if **both** conditions are true.
+- Example: `(m1 >= 35 && m2 >= 35)` → Checks if both `m1` and `m2` are greater than or equal to 35.
+2. **Logical OR (`||`)** → Returns `true` if **at least one** condition is true.
+- Example: `(m1 >= 35 || m2 >= 35)` → Checks if either `m1` or `m2` is greater than or equal to 35.
+
+#### 🔹 Program Functionality:
+- Declares and initializes two integer variables.
+- Uses logical operators to evaluate conditions based on given values.
+- Prints the boolean results (`true` or `false`) for each logical operation.
+
+This program helps in understanding how logical operators work and how they are used in **decision-making** (e.g., `if` conditions) in Java.
+
+### .....................................................
