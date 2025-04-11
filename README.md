@@ -15,3 +15,14 @@ The **CommandLineArguments.java** program demonstrates how to pass and handle co
 This program takes arguments as an array (`args[]`), iterates through them using a loop, and prints each argument to the console. It is useful for handling user inputs without requiring interactive input during runtime.
 
 ### .....................................................
+
+### 🔹3_SingleAndMultiLineComments.java
+This program demonstrates how to use single-line and multi-line comments in Java.
+
+- **Single-line comments** are used to comment out a single line of code. They begin with `//` and everything after `//` on that line is treated as a comment.  
+  In the example, `// THIS IS SINGLE LINE COMMENTS` is a single-line comment.
+
+- **Multi-line comments** are used to comment out multiple lines of code. They begin with `/*` and end with `*/`.  
+  In the example, `/* THIS PART IS ALLOCATED FOR MULTI LINE COMMENTS */` is a multi-line comment that can span multiple lines.
+
+### .....................................................
