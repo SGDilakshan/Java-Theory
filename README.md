@@ -107,3 +107,23 @@ This program demonstrates the use of **arithmetic assignment operators** in Java
 This program helps understand how assignment operators simplify arithmetic calculations in Java.
 
 ### .....................................................
+
+### 🔹8_RelationalOperators.java
+This program demonstrates the use of **relational operators** in Java. Relational operators are used to compare values and return a boolean result (`true` or `false`).
+
+#### 🔹 Relational Operators Used:
+1. **Equal to (`==`)** → Checks if two values are equal.
+2. **Not equal to (`!=`)** → Checks if two values are not equal.
+3. **Less than (`<`)** → Checks if the first value is smaller than the second.
+4. **Greater than (`>`)** → Checks if the first value is larger than the second.
+5. **Less than or equal to (`<=`)** → Checks if the first value is smaller than or equal to the second.
+6. **Greater than or equal to (`>=`)** → Checks if the first value is larger than or equal to the second.
+
+#### 🔹 Program Functionality:
+- Declares and initializes two integer variables.
+- Compares these values using relational operators.
+- Prints the boolean results (`true` or `false`) for each comparison.
+
+This program helps in understanding how relational operators work and their importance in decision-making (e.g., `if` conditions) in Java.
+
+### .....................................................
