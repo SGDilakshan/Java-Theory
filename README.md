@@ -88,3 +88,22 @@ This program demonstrates the use of **arithmetic operators** in Java. Arithmeti
 This program helps understand basic mathematical operations in Java and how to apply them in real-world scenarios.
 
 ### .....................................................
+
+### 🔹7_ArithmeticAssignmentOperators.java
+This program demonstrates the use of **arithmetic assignment operators** in Java. These operators perform arithmetic operations and assign the result to the variable in a single step.
+
+#### 🔹 Arithmetic Assignment Operators Used:
+1. **Addition Assignment (`+=`)** → Adds a value to the variable (`a += 10` is equivalent to `a = a + 10`).
+2. **Subtraction Assignment (`-=`)** → Subtracts a value from the variable (`a -= 10` is equivalent to `a = a - 10`).
+3. **Multiplication Assignment (`*=`)** → Multiplies the variable by a value (`a *= 10` is equivalent to `a = a * 10`).
+4. **Division Assignment (`/=`)** → Divides the variable by a value (`a /= 10` is equivalent to `a = a / 10`).
+5. **Modulus Assignment (`%=`)** → Finds the remainder and assigns it (`a %= 10` is equivalent to `a = a % 10`).
+
+#### 🔹 Program Functionality:
+- Declares and initializes an integer variable.
+- Performs arithmetic assignment operations on the variable.
+- Prints the updated value after each operation.
+
+This program helps understand how assignment operators simplify arithmetic calculations in Java.
+
+### .....................................................
