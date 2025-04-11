@@ -197,3 +197,30 @@ This program demonstrates the use of **bitwise and shift operators** in Java. Th
 - Prints the results to observe how **bitwise operators** work.
 
 ### .....................................................
+
+### 🔹13_ScannerClassExample.java
+This program demonstrates how to use the **`Scanner`** class in Java to obtain input from the user and perform a simple mathematical calculation with **floating-point numbers**.
+
+#### 🔹 Scanner Methods Used:
+- **`scanner.nextFloat()`**: This method is used to read floating-point numbers from the user.
+- Other common methods include **`nextInt()`**, **`nextDouble()`**, **`nextLine()`**, and **`next()`**, which are used to read different data types and strings.
+
+#### 🔹 Scanner Class Methods Overview:
+- **`nextInt()`**: Reads an integer input.
+- **`nextDouble()`**: Reads a double input.
+- **`nextLine()`**: Reads an entire line of input as a string.
+- **`next()`**: Reads the next token (word) as a string.
+- **`hasNext()`**: Checks if there is another token to read.
+
+#### 🔹 Key Concepts:
+- **Creating a Scanner object**: `Scanner scanner = new Scanner(System.in);` allows the program to get input from the user.
+- **Mathematical Calculation**: The formula `(a + b)^2 = a^2 + b^2 + 2ab` is used here to demonstrate how floating-point arithmetic works.
+- **Closing the Scanner**: It’s important to call `scanner.close()` when done to release the resources.
+
+#### 🔹 Other Usage of Scanner Class:
+- `Scanner` can be used to read input not only from the console but also from other sources like files or strings.
+- It’s useful for parsing various types of data, such as numbers, strings, and lines of text.
+
+This program is a simple illustration of reading input, performing a calculation, and outputting the result in Java.
+
+### .....................................................
