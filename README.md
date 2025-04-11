@@ -150,3 +150,22 @@ This program helps in understanding how logical operators work and how they are 
 This program demonstrates the use of the **conditional (ternary) operator** in Java. The ternary operator is a shorthand for `if-else` statements and is used to make quick decisions based on a condition.
 
 ### .....................................................
+
+### 🔹11_UnaryOperators.java
+This program demonstrates the use of **unary operators** in Java. Unary operators operate on a single operand and are commonly used for **incrementing, decrementing, and negation**.
+
+#### 🔹 Unary Operators Used:
+1. **Increment Operator (`++`)**
+- **Post-increment (`a++`)** → Returns the current value, then increments.
+- **Pre-increment (`++a`)** → Increments first, then returns the new value.
+
+2. **Decrement Operator (`--`)**
+- **Post-decrement (`a--`)** → Returns the current value, then decrements.
+- **Pre-decrement (`--a`)** → Decrements first, then returns the new value.
+
+#### 🔹 Program Functionality:
+- Declares and initializes an integer variable.
+- Applies **increment (`++`)** and **decrement (`--`)** operators in both pre and post forms.
+- Prints the values to observe how these operators affect the variable.
+
+### .....................................................
