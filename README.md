@@ -68,3 +68,23 @@ This program demonstrates **Type Casting** in Java, which is the process of conv
 This program helps in understanding how type conversion works in Java and when to use explicit or implicit casting.
 
 ### .....................................................
+
+### 🔹6_ArithmeticOperators.java
+
+This program demonstrates the use of **arithmetic operators** in Java. Arithmetic operators are used to perform mathematical operations on numeric values.
+
+#### 🔹 Arithmetic Operators Used:
+1. **Addition (`+`)** → Adds two numbers.
+2. **Subtraction (`-`)** → Subtracts one number from another.
+3. **Multiplication (`*`)** → Multiplies two numbers.
+4. **Division (`/`)** → Divides one number by another (quotient).
+5. **Modulus (`%`)** → Returns the remainder of division.
+
+#### 🔹 Program Functionality:
+- Declares and initializes two integer variables.
+- Performs arithmetic operations using these operators.
+- Prints the results to the console.
+
+This program helps understand basic mathematical operations in Java and how to apply them in real-world scenarios.
+
+### .....................................................
