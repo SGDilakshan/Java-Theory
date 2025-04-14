@@ -18,7 +18,7 @@ public class L21_DoWhileLoop {
         int i=2;
         do{
             System.out.println(i);
-            i+=2;
+            i+=2; // i = i+2
         }while(i<=limit);
     }
 }
