@@ -443,3 +443,12 @@ This program demonstrates the use of a **for loop** in Java. It prints numbers f
 This program demonstrates the use of a **for loop** to execute a block of code a set number of times, making it ideal for situations where the number of iterations is known beforehand.
 
 ### .....................................................
+
+### 🔹L23_EnhancedForLoop.java
+This program demonstrates the use of an **enhanced for loop** (also known as the **foreach loop**) in Java to iterate through an array.
+
+#### 🔹Key Concepts:
+- **Enhanced For Loop**:  
+  The **enhanced for loop** simplifies the iteration over arrays or collections. Instead of using a traditional `for` loop with an index, it directly accesses each element in the array or collection. In this case, the loop iterates over the `numbers` array.
+
+### .....................................................
