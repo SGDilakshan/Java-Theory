@@ -265,3 +265,28 @@ This program demonstrates how to use the **`if-else`** statement in Java for con
 - The program highlights how basic control structures like **`if-else`** can be used in a practical scenario (e.g., leap year determination), showing their usefulness in day-to-day programming tasks.
 
 ### .....................................................
+
+### 🔹16_ELSEIFLadder.java
+This program demonstrates the use of the **`else-if`** ladder in Java to assign grades based on a student's average marks.
+
+#### 🔹 Key Concepts:
+- **`else-if` Ladder**:  
+  The `else-if` ladder is used when there are multiple conditions to check in a sequence. The program checks each condition one by one, starting from the first `if` and then moving through the `else-if` statements until one of the conditions evaluates to true. If none of the conditions are true, the final `else` block executes.
+
+- **Conditional Grade Assignment**:  
+  Based on the student's average marks (input by the user), the program assigns a grade. The conditions are as follows:
+  - **Grade A**: For marks between **90** and **100**.
+  - **Grade B**: For marks between **80** and **89**.
+  - **Grade C**: For marks between **70** and **79**.
+  - **Grade D**: For marks between **60** and **69**.
+  - **Grade E**: For marks below **60**.
+
+- **User Input**:  
+  The program uses the **`Scanner`** class to take input from the user for the average marks, allowing for dynamic input during execution.
+
+- **Flow Control**:  
+  The `else-if` ladder helps streamline the process of checking multiple conditions and performing actions based on each possible outcome, making the code more readable and efficient when handling several related conditions.
+
+This program is an example of how **`else-if`** structures are helpful for handling multiple conditions in a clear and structured manner.
+
+### .....................................................
