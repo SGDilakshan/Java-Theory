@@ -420,3 +420,26 @@ This program demonstrates the use of a **do-while loop** in Java. It prints even
 This program showcases the use of a **do-while loop** to handle situations where you want to execute a block of code at least once, regardless of the condition, and then repeatedly execute it while a condition is true.
 
 ### .....................................................
+
+### 🔹L22_ForLoop.java
+This program demonstrates the use of a **for loop** in Java. It prints numbers from 1 to a user-defined limit.
+
+#### 🔹Key Concepts:
+- **For Loop**:  
+  The **for loop** is a control structure that allows you to repeat a block of code a fixed number of times. It consists of three parts:
+  1. **Initialization**: The loop counter (`i`) is initialized (in this case, `i = 1`).
+  2. **Condition**: The loop runs as long as the condition (`i <= limit`) is true.
+  3. **Increment**: After each iteration, the loop counter is incremented (`i++`).
+
+- **User Input**:  
+  The program takes an integer input (`limit`) from the user, which specifies the number of iterations the loop should run.
+
+- **Output**:  
+  The program prints the numbers starting from 1 up to the specified `limit`. Each number is printed on a new line.
+
+- **Exit Condition**:  
+  The loop stops when the value of `i` exceeds the `limit`, which causes the condition `i <= limit` to become false.
+
+This program demonstrates the use of a **for loop** to execute a block of code a set number of times, making it ideal for situations where the number of iterations is known beforehand.
+
+### .....................................................
