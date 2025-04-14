@@ -540,3 +540,15 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - Compares the result with the original number.
 
 ### .....................................................
+
+## 🔹 L31_ArmstrongNumberRange.java
+### ✨ Summary:
+- Finds and prints all **Armstrong numbers** between **100 and 999**.
+- Only 3-digit numbers are considered in the given range.
+
+### 📌 Key Points:
+- Uses a `for` loop to check each number from `100` to `999`.
+- Extracts digits using `%` and `/` operations.
+- Checks if `digit1³ + digit2³ + digit3³ == number`.
+
+### .....................................................
