@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class BitwiseAndShiftOperators {
+public class L12_BitwiseAndShiftOperators {
     public static void main(String[] args) {
         // Bitwise and Shift Operators in Java
         int a=25,b=45;

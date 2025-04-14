@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class ArithmeticOperators {
+public class L06_ArithmeticOperators {
     public static void main(String[] args) {
         int a = 123,b=10;
         System.out.println("Addition: "+(a+b));

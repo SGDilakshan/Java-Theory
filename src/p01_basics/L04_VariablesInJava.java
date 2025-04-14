@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class VariablesInJava {
+public class L04_VariablesInJava {
     public static void main(String[] args) {
         String name = "Dilakshan";
         int age = 25;

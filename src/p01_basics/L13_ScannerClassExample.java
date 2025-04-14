@@ -1,8 +1,8 @@
-package basics;
+package p01_basics;
 
 import java.util.Scanner;
 
-public class ScannerClassExample {
+public class L13_ScannerClassExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         /*

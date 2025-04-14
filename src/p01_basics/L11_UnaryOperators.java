@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class UnaryOperators {
+public class L11_UnaryOperators {
     public static void main(String[] args) {
         // Unary Operator in Java ++ --
         int a=10;

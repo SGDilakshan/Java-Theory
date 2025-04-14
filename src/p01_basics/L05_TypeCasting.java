@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class TypeCasting {
+public class L05_TypeCasting {
     /*
     Widening Casting
     byte -> short -> char -> int -> long -> float -> double

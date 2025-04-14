@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class RelationalOperators {
+public class L08_RelationalOperators {
     public static void main(String[] args) {
         int a=100,b=50;
         System.out.println("Equal to: "+(a==b));

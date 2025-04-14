@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class ConditionalOperators {
+public class L10_ConditionalOperators {
     public static void main(String[] args) {
         // Conditional Operator or Ternary Operator in Java
         int a=45,b=35,c;

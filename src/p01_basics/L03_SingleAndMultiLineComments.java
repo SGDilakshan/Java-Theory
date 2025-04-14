@@ -1,6 +1,6 @@
-package basics;
+package p01_basics;
 
-public class SingleAndMultiLineComments {
+public class L03_SingleAndMultiLineComments {
     public static void main(String[] args) {
         // THIS IS SINGLE LINE COMMENTS
         System.out.println("Hi");
