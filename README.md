@@ -452,3 +452,12 @@ This program demonstrates the use of an **enhanced for loop** (also known as the
   The **enhanced for loop** simplifies the iteration over arrays or collections. Instead of using a traditional `for` loop with an index, it directly accesses each element in the array or collection. In this case, the loop iterates over the `numbers` array.
 
 ### .....................................................
+
+### 🔹L24_NestedForLoop.java
+This program demonstrates the use of a **nested for loop** in Java to print a pattern of asterisks (`*`).
+
+#### 🔹Key Concepts:
+- **Nested For Loop**:  
+  A **nested for loop** refers to placing one `for` loop inside another. The outer loop controls the number of rows, and the inner loop controls the number of columns or elements printed in each row. In this program, the outer loop controls the number of lines, and the inner loop controls the number of asterisks printed in each line.
+
+### .....................................................
