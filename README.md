@@ -317,3 +317,33 @@ This program demonstrates the use of **nested `if`** statements in Java. It chec
 This program shows how **nested `if` statements** allow for multiple layers of decision-making based on different factors.
 
 ### .....................................................
+
+### 🔹18_SwitchStatement.java
+This program demonstrates the use of the **`switch`** statement in Java, a control structure that allows for multi-way branching based on a variable's value.
+
+#### 🔹 Key Concepts:
+- **Switch Statement**:  
+  The `switch` statement is used to execute one of many code blocks based on the value of a variable. It compares the value of the variable (in this case, `choice`) to different `case` labels, and executes the code associated with the matching `case`.
+
+- **Basic Operations**:  
+  The program allows the user to choose an operation (addition, subtraction, multiplication, division) by entering a number from the menu (1-4). After the user selects an operation, the program prompts them to input two numbers, and then performs the corresponding arithmetic operation.
+
+- **Case Labels**:
+  - **Case 1**: Performs **addition** of two numbers.
+  - **Case 2**: Performs **subtraction** of two numbers.
+  - **Case 3**: Performs **multiplication** of two numbers.
+  - **Case 4**: Performs **division** of two numbers.
+  - **Default Case**: If the user enters a number that is not between 1 and 4, it prints `"Invalid Selection"`.
+
+- **Break Statement**:  
+  The `break` statement is used to terminate the `switch` block once a case is executed. Without it, the program would continue checking the remaining cases, leading to undesired results.
+
+- **User Input**:  
+  The program uses **`Scanner`** to take user input for both the operation choice and the numbers to perform calculations on.
+
+- **Error Handling**:  
+  Although this program handles invalid choices via the default case, there is no explicit handling for **division by zero**, which could cause an error if the user enters zero when performing the division operation.
+
+This program highlights how a **`switch` statement** simplifies decision-making when there are multiple choices based on a single variable, making the code cleaner and easier to read.
+
+### .....................................................
