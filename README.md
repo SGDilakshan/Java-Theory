@@ -489,3 +489,16 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - Example: For input `5`, output will be `120`.
 
 ### .....................................................
+
+## 🔹 L27_SumAndAverageOfNumbers.java
+### ✨ Summary:
+- Reads a limit `n` from the user.
+- Accepts `n` numbers as input.
+- Calculates the **sum** and **average** of those numbers.
+
+### 📌 Key Points:
+- `Scanner` is used to read both the limit and the individual numbers.
+- A `for` loop collects and adds each number to the `sum`.
+- Average is calculated using `sum / n`.
+
+### .....................................................
