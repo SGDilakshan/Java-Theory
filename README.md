@@ -1,7 +1,7 @@
 # Java-Theory
 A complete Java learning repository covering p01_basics to advanced topics including OOP, data structures, GUI, and database connectivity. Perfect for beginners and developers to explore Java with clear examples and structured modules for hands-on learning.
 
-## 🔹 Basics
+## 🔹 p01_Basics
 ### 🔹 L01_HelloWorld.java
 The **HelloWorld.java** program is the simplest Java application that introduces the basic structure of a Java program. It contains a class, a `main` method, and a print statement.
 
@@ -222,5 +222,25 @@ This program demonstrates how to use the **`Scanner`** class in Java to obtain i
 - It’s useful for parsing various types of data, such as numbers, strings, and lines of text.
 
 This program is a simple illustration of reading input, performing a calculation, and outputting the result in Java.
+
+### .....................................................
+
+## 🔹p02_Control Structures
+### 🔹L14_IFStatement.java
+This program demonstrates the use of the **`if`** statement in Java to check a condition and execute a block of code based on the result.
+
+#### 🔹 Key Concepts:
+- **`if` Statement**:  
+  The `if` statement checks whether a given condition is true. If the condition is true, the code block inside the `if` statement executes.
+
+- **`Scanner` Class**:  
+  The program uses the `Scanner` class to take input from the user, which is stored in the `age` variable.
+
+#### 🔹 Additional Notes:
+- If the user enters an age less than 18, the program does not print anything, as there is no `else` clause.
+- **`Scanner` class methods** like `nextInt()` are used to read numerical input.
+- The program could be extended with an `else` statement to provide feedback for users who are under 18.
+
+This program is a basic demonstration of how the **`if`** statement can be used to check conditions and control the flow of a program.
 
 ### .....................................................
