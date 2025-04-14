@@ -244,3 +244,24 @@ This program demonstrates the use of the **`if`** statement in Java to check a c
 This program is a basic demonstration of how the **`if`** statement can be used to check conditions and control the flow of a program.
 
 ### .....................................................
+
+### 🔹15_IFELSEStatement.java
+This program demonstrates how to use the **`if-else`** statement in Java for conditional logic. The primary goal of the program is to determine whether a given year is a **leap year** or not, based on the Gregorian calendar rules.
+
+#### 🔹 Key Concepts:
+- **Leap Year Logic**:  
+  A **leap year** is defined as:
+  - A year that is divisible by **4**, but not divisible by **100**, unless it is also divisible by **400**. This rule ensures that the leap year calculation accounts for the additional day in February once every four years, except for centuries that are not divisible by 400.
+
+- **Using `if-else`**:  
+  The `if-else` statement is employed to execute one block of code when a condition is true and another when the condition is false. In this program, the `if` block checks whether the year satisfies the leap year conditions, and the `else` block handles the case where the year does not meet the criteria for being a leap year.
+
+- **User Input**:  
+  The program utilizes the **`Scanner` class** to gather input from the user. This allows the user to enter the year they wish to evaluate, making the program dynamic and interactive.
+
+#### 🔹 Importance of Conditional Logic:
+- Conditional statements like **`if-else`** help control the flow of a program based on whether specific conditions are true or false. This makes it possible to create programs that can adapt to different inputs or situations, such as determining if a year is a leap year or not.
+
+- The program highlights how basic control structures like **`if-else`** can be used in a practical scenario (e.g., leap year determination), showing their usefulness in day-to-day programming tasks.
+
+### .....................................................
