@@ -461,3 +461,18 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
   A **nested for loop** refers to placing one `for` loop inside another. The outer loop controls the number of rows, and the inner loop controls the number of columns or elements printed in each row. In this program, the outer loop controls the number of lines, and the inner loop controls the number of asterisks printed in each line.
 
 ### .....................................................
+
+## 🔹L25_BreakAndContinue.java
+### `break` Statement:
+- Immediately **exits the loop** when a condition is met.
+- The remaining iterations are skipped.
+
+### `continue` Statement:
+- **Skips the current iteration** and moves to the next one.
+- The loop continues executing normally.
+
+### Example Behavior:
+- `break` stops the loop early.
+- `continue` skips specific iterations but keeps the loop running.
+
+### .....................................................
