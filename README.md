@@ -290,3 +290,30 @@ This program demonstrates the use of the **`else-if`** ladder in Java to assign 
 This program is an example of how **`else-if`** structures are helpful for handling multiple conditions in a clear and structured manner.
 
 ### .....................................................
+
+### 🔹17_NestedIfExample.java
+This program demonstrates the use of **nested `if`** statements in Java. It checks a person's eligibility for insurance based on their marital status, gender, and age.
+
+#### 🔹 Key Concepts:
+- **Nested `if` Statements**:  
+  A **nested `if`** statement occurs when one `if` statement is placed inside another. This allows for more complex decision-making, as the program first checks a primary condition and then evaluates additional conditions inside the first block.
+
+- **Marital Status Check**:  
+  The program first checks if the person is unmarried (`U` or `u`) or married (`M` or `m`).
+  - If unmarried, the program asks for gender and age to determine eligibility for insurance.
+  - If married, the program directly determines eligibility without checking gender or age.
+
+- **Eligibility Criteria**:
+  - **Unmarried Males**: Eligible for insurance if their age is **30 or older**.
+  - **Unmarried Females**: Eligible for insurance if their age is **25 or older**.
+  - **Married Individuals**: Always eligible for insurance, regardless of gender or age.
+
+- **User Input**:  
+  The program uses **`Scanner`** to get inputs for marital status, gender, and age from the user, which are then processed to decide if the person is eligible for insurance.
+
+- **Flow Control**:  
+  The program demonstrates how complex decisions can be made by nesting `if` statements to check multiple conditions before arriving at a final conclusion.
+
+This program shows how **nested `if` statements** allow for multiple layers of decision-making based on different factors.
+
+### .....................................................
