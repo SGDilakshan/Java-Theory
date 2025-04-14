@@ -347,3 +347,29 @@ This program demonstrates the use of the **`switch`** statement in Java, a contr
 This program highlights how a **`switch` statement** simplifies decision-making when there are multiple choices based on a single variable, making the code cleaner and easier to read.
 
 ### .....................................................
+
+### 🔹19_GroupSwitchStatement.java
+This program demonstrates the use of **grouped `case` labels** within a `switch` statement in Java. It checks whether a given character is a vowel or not.
+
+#### 🔹 Key Concepts:
+- **Grouped `case` Labels**:  
+  In a `switch` statement, multiple `case` labels can be grouped together to execute the same block of code for different values. In this case, the vowels (both uppercase and lowercase) are grouped together to print that the character is a vowel.
+
+- **Switch Statement**:  
+  The `switch` statement is used to evaluate a variable (`c`) and compare it against multiple `case` labels. If a match is found, the code under the corresponding `case` label is executed.
+
+- **Vowels Check**:  
+  The program checks if the entered character is a vowel (either lowercase or uppercase) by using the grouped `case` labels. If the character is a vowel, it prints the message indicating the character is a vowel. If the character is not a vowel, it falls to the `default` case and prints that the character is not a vowel.
+
+- **Break Statement**:  
+  Each `case` group ends with a `break` statement to ensure the switch statement exits once a match is found and the corresponding code is executed.
+
+- **User Input**:  
+  The program uses **`Scanner`** to take user input for a character and then checks whether the character is a vowel.
+
+- **Default Case**:  
+  The `default` case handles the situation where the entered character is not a vowel and prints an appropriate message.
+
+This program shows how **grouped `case` labels** in a `switch` statement can simplify code when multiple values need to trigger the same behavior.
+
+### .....................................................
