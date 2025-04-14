@@ -502,3 +502,16 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - Average is calculated using `sum / n`.
 
 ### .....................................................
+
+## 🔹 L28_FibonacciSeries.java
+
+### ✨ Summary:
+- Prints the first `n` numbers of the **Fibonacci series**.
+- Fibonacci series is a sequence where each number is the sum of the two preceding ones.
+
+### 📌 Key Points:
+- Takes a number `n` as input using `Scanner`.
+- Uses a `for` loop to generate and print the Fibonacci sequence.
+- Starts with `a = -1` and `b = 1` so the first term becomes `0`.
+
+### .....................................................
