@@ -245,7 +245,7 @@ This program is a basic demonstration of how the **`if`** statement can be used 
 
 ### .....................................................
 
-### 🔹15_IFELSEStatement.java
+### 🔹L15_IFELSEStatement.java
 This program demonstrates how to use the **`if-else`** statement in Java for conditional logic. The primary goal of the program is to determine whether a given year is a **leap year** or not, based on the Gregorian calendar rules.
 
 #### 🔹 Key Concepts:
@@ -259,17 +259,17 @@ This program demonstrates how to use the **`if-else`** statement in Java for con
 - **User Input**:  
   The program utilizes the **`Scanner` class** to gather input from the user. This allows the user to enter the year they wish to evaluate, making the program dynamic and interactive.
 
-#### 🔹 Importance of Conditional Logic:
+#### 🔹Importance of Conditional Logic:
 - Conditional statements like **`if-else`** help control the flow of a program based on whether specific conditions are true or false. This makes it possible to create programs that can adapt to different inputs or situations, such as determining if a year is a leap year or not.
 
 - The program highlights how basic control structures like **`if-else`** can be used in a practical scenario (e.g., leap year determination), showing their usefulness in day-to-day programming tasks.
 
 ### .....................................................
 
-### 🔹16_ELSEIFLadder.java
+### 🔹L16_ELSEIFLadder.java
 This program demonstrates the use of the **`else-if`** ladder in Java to assign grades based on a student's average marks.
 
-#### 🔹 Key Concepts:
+#### 🔹Key Concepts:
 - **`else-if` Ladder**:  
   The `else-if` ladder is used when there are multiple conditions to check in a sequence. The program checks each condition one by one, starting from the first `if` and then moving through the `else-if` statements until one of the conditions evaluates to true. If none of the conditions are true, the final `else` block executes.
 
@@ -291,10 +291,10 @@ This program is an example of how **`else-if`** structures are helpful for handl
 
 ### .....................................................
 
-### 🔹17_NestedIfExample.java
+### 🔹L17_NestedIfExample.java
 This program demonstrates the use of **nested `if`** statements in Java. It checks a person's eligibility for insurance based on their marital status, gender, and age.
 
-#### 🔹 Key Concepts:
+#### 🔹Key Concepts:
 - **Nested `if` Statements**:  
   A **nested `if`** statement occurs when one `if` statement is placed inside another. This allows for more complex decision-making, as the program first checks a primary condition and then evaluates additional conditions inside the first block.
 
@@ -318,10 +318,10 @@ This program shows how **nested `if` statements** allow for multiple layers of d
 
 ### .....................................................
 
-### 🔹18_SwitchStatement.java
+### 🔹L18_SwitchStatement.java
 This program demonstrates the use of the **`switch`** statement in Java, a control structure that allows for multi-way branching based on a variable's value.
 
-#### 🔹 Key Concepts:
+#### 🔹Key Concepts:
 - **Switch Statement**:  
   The `switch` statement is used to execute one of many code blocks based on the value of a variable. It compares the value of the variable (in this case, `choice`) to different `case` labels, and executes the code associated with the matching `case`.
 
@@ -348,10 +348,10 @@ This program highlights how a **`switch` statement** simplifies decision-making 
 
 ### .....................................................
 
-### 🔹19_GroupSwitchStatement.java
+### 🔹L19_GroupSwitchStatement.java
 This program demonstrates the use of **grouped `case` labels** within a `switch` statement in Java. It checks whether a given character is a vowel or not.
 
-#### 🔹 Key Concepts:
+#### 🔹Key Concepts:
 - **Grouped `case` Labels**:  
   In a `switch` statement, multiple `case` labels can be grouped together to execute the same block of code for different values. In this case, the vowels (both uppercase and lowercase) are grouped together to print that the character is a vowel.
 
@@ -371,5 +371,29 @@ This program demonstrates the use of **grouped `case` labels** within a `switch`
   The `default` case handles the situation where the entered character is not a vowel and prints an appropriate message.
 
 This program shows how **grouped `case` labels** in a `switch` statement can simplify code when multiple values need to trigger the same behavior.
+
+### .....................................................
+
+## 🔹p03_Loops
+### 🔹L20_WhileLoop.java
+This program demonstrates the use of a **while loop** in Java. It repeatedly prints numbers from 1 up to a user-defined limit.
+
+#### 🔹Key Concepts:
+- **While Loop**:  
+  A **while loop** repeatedly executes a block of code as long as a specified condition is true. In this case, the loop continues to run as long as `i` is less than or equal to the `limit` provided by the user.
+
+- **Condition Checking**:  
+  The loop starts by checking if the condition `i <= limit` is true. If true, the block of code inside the loop is executed. After each iteration, the value of `i` is incremented (`i++`) to ensure progress towards meeting the exit condition.
+
+- **User Input**:  
+  The program uses the `Scanner` class to take an integer input (`limit`) from the user, which determines how many times the loop will run.
+
+- **Output**:  
+  The program prints numbers starting from 1 up to the value of `limit`. The numbers are printed one by one on each iteration of the loop.
+
+- **Exit Condition**:  
+  Once `i` exceeds the `limit`, the loop condition becomes false (`i > limit`), causing the loop to stop executing.
+
+This program illustrates how a **while loop** can be used to execute a set of instructions repeatedly based on a dynamic condition.
 
 ### .....................................................
