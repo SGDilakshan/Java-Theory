@@ -527,3 +527,16 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - Division (`/`) is used to remove the last digit.
 
 ### .....................................................
+
+## 🔹 L30_ArmstrongNumber.java
+### ✨ Summary:
+- Checks if a **3-digit number** is an **Armstrong number**.
+- An Armstrong number is a number whose sum of the cubes of its digits equals the number itself.
+
+### 📌 Key Points:
+- Takes a 3-digit number as input using `Scanner`.
+- Separates each digit using `%` and `/`.
+- Calculates: `digit1³ + digit2³ + digit3³`
+- Compares the result with the original number.
+
+### .....................................................
