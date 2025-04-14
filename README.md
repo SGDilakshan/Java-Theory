@@ -476,3 +476,16 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - `continue` skips specific iterations but keeps the loop running.
 
 ### .....................................................
+
+## 🔹 L26_Factorial.java
+### ✨ Summary:
+- Reads an integer input from the user.
+- Uses a `for` loop to calculate the factorial.
+- Displays the final result.
+
+### 📌 Key Points:
+- `Scanner` is used to get user input.
+- Factorial is calculated by multiplying numbers from `1` to `n`.
+- Example: For input `5`, output will be `120`.
+
+### .....................................................
