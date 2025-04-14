@@ -397,3 +397,26 @@ This program demonstrates the use of a **while loop** in Java. It repeatedly pri
 This program illustrates how a **while loop** can be used to execute a set of instructions repeatedly based on a dynamic condition.
 
 ### .....................................................
+
+### 🔹L21_DoWhileLoop.java
+This program demonstrates the use of a **do-while loop** in Java. It prints even numbers starting from 2 up to a user-defined limit.
+
+#### 🔹Key Concepts:
+- **Do-While Loop**:  
+  A **do-while loop** is similar to a **while loop**, but with a key difference: the block of code inside the `do` section is executed at least once, even if the condition is false at the first check. After executing the block once, it checks the condition in the `while` part. If the condition is true, it will repeat the loop. This ensures the loop runs at least once.
+
+- **Condition Checking**:  
+  In this case, the loop continues to execute as long as the condition `i <= limit` holds true. The value of `i` starts at 2, and it is incremented by 2 in each iteration (to print even numbers only). The loop will stop when `i` exceeds the user-defined `limit`.
+
+- **User Input**:  
+  The program takes an integer input (`limit`) from the user, which specifies the upper bound for the loop. The user decides how many even numbers they want to print.
+
+- **Output**:  
+  The program prints even numbers starting from 2 up to the specified limit. The loop continues to print numbers until the condition `i <= limit` becomes false.
+
+- **Exit Condition**:  
+  When `i` becomes greater than the `limit`, the loop terminates, and no further numbers are printed.
+
+This program showcases the use of a **do-while loop** to handle situations where you want to execute a block of code at least once, regardless of the condition, and then repeatedly execute it while a condition is true.
+
+### .....................................................
