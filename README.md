@@ -504,7 +504,6 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 ### .....................................................
 
 ## 🔹 L28_FibonacciSeries.java
-
 ### ✨ Summary:
 - Prints the first `n` numbers of the **Fibonacci series**.
 - Fibonacci series is a sequence where each number is the sum of the two preceding ones.
@@ -513,5 +512,18 @@ This program demonstrates the use of a **nested for loop** in Java to print a pa
 - Takes a number `n` as input using `Scanner`.
 - Uses a `for` loop to generate and print the Fibonacci sequence.
 - Starts with `a = -1` and `b = 1` so the first term becomes `0`.
+
+### .....................................................
+
+## 🔹 L29_ReverseOfNNumber.java
+### ✨ Summary:
+- Reverses a given integer number.
+- Displays the number in reverse order.
+
+### 📌 Key Points:
+- Takes an integer input using `Scanner`.
+- Uses a `while` loop to extract and reverse digits.
+- Modulus (`%`) is used to get the last digit.
+- Division (`/`) is used to remove the last digit.
 
 ### .....................................................
